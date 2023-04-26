@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <meta charset="utf-8">
+     <script type="text/javascript"> 
+    window.onload = function() {
+  history.pushState(null, null, null);
+
+  window.addEventListener("popstate", function (e) {
+    history.pushState(null, null, null);
+    return;
+  });
+}; 
+function myopen1(){ 
+window.open("https://www.instagram.com/");
+}
+</script>
+  </head>
+  <body>
+  
+<center>
+   <h1>404 not found</h1>
+   <h2>申し訳ございません。</h2>
+   <h2>指定されたファイルやディレクトリは存在しません</h2>
+ <input type="button" value="インスタグラムに戻る" background="#ffffff" onclick=" myopen1()" style="font-size:30px;width:50%;height:60px">
+</center>
+
+  </body>
+</html>
